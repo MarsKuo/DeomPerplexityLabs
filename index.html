@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清新生活 - 發現生活的美好</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__brand">
+                    <h2>清新生活</h2>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav__menu" id="navMenu">
+                    <a href="#home" class="nav__link">首頁</a>
+                    <a href="#products" class="nav__link">產品</a>
+                    <a href="#about" class="nav__link">關於我們</a>
+                    <a href="#contact" class="nav__link">聯絡我們</a>
+                </div>
+                
+                <!-- User Actions -->
+                <div class="nav__actions">
+                    <button class="btn btn--outline btn--sm">登入</button>
+                    <button class="cart-btn">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+                
+                <!-- Mobile Hamburger -->
+                <button class="nav__toggle" id="navToggle" aria-label="開啟選單">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">發現生活的美好</h1>
+                <p class="hero__subtitle">精選優質產品，為您的生活增添色彩</p>
+                <button class="btn btn--primary btn--lg">開始購物</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">熱門商品</h2>
+            <div class="products__grid" id="productsGrid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="services__grid" id="servicesGrid">
+                <!-- Services will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>清新生活</h3>
+                    <p>致力於為您提供最優質的生活用品，讓每一天都充滿美好。</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>快速連結</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">首頁</a></li>
+                        <li><a href="#products">產品</a></li>
+                        <li><a href="#about">關於我們</a></li>
+                        <li><a href="#contact">聯絡我們</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>客戶服務</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">常見問題</a></li>
+                        <li><a href="#">退換貨政策</a></li>
+                        <li><a href="#">配送資訊</a></li>
+                        <li><a href="#">隱私政策</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>聯絡我們</h4>
+                    <div class="footer__contact">
+                        <p>📧 service@freshlife.com.tw</p>
+                        <p>📞 02-1234-5678</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank">📘</a>
+                            <a href="#" target="_blank">📷</a>
+                            <a href="#" target="_blank">🐦</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 清新生活. 版權所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
